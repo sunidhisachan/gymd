@@ -1,0 +1,96 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 4000;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjrdflsBV03BwwmLhA88MtCBc_UkDSFkt7VsBoDitPalCfMLZKGQmL0UCgtIVCCSOM4kw&usqp=CAU");
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.left{
+/* border: 2px solid red; */
+display: inline-block;
+position: absolute;
+left: 34px;
+top: 20px;
+}
+.left img{
+    width: 100px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+   
+    display: block;
+    width: 70%;
+    margin: 29px auto;
+    padding-right: 14%;
+}
+.right{
+    position: absolute;
+    right: 24px;
+    top: 43px;
+    display: inline-block;
+   
+}
+.btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(61, 56, 56);
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a {
+    color:#fff;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active {
+    
+    text-decoration: underline;
+    color: orange;
+   
+}
+.container{
+    border: 2px solid white;
+    margin: 110px 90px;
+    padding: 75px 75px;
+    width: 40%;
+    border-radius: 28px;
+
+
+}
+.form-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 6px;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 81%;
+    margin: 20px auto;
+    
+}
